@@ -1,0 +1,53 @@
+#!/bin/bash
+ulimit -v 2097152
+ulimit -s 2097152
+
+timeout 5s ./nile < ./tests/4-04.in > ./solution/4-04.out
+timeout 5s ./nile < ./tests/7-01.in > ./solution/7-01.out
+timeout 5s ./nile < ./tests/7-03.in > ./solution/7-03.out
+timeout 5s ./nile < ./tests/7-06.in > ./solution/7-06.out
+timeout 5s ./nile < ./tests/1-04.in > ./solution/1-04.out
+timeout 5s ./nile < ./tests/0-01.in > ./solution/0-01.out
+timeout 5s ./nile < ./tests/6-07.in > ./solution/6-07.out
+timeout 5s ./nile < ./tests/1-02.in > ./solution/1-02.out
+timeout 5s ./nile < ./tests/6-04.in > ./solution/6-04.out
+timeout 5s ./nile < ./tests/6-05.in > ./solution/6-05.out
+timeout 5s ./nile < ./tests/7-09.in > ./solution/7-09.out
+timeout 5s ./nile < ./tests/1-05.in > ./solution/1-05.out
+timeout 5s ./nile < ./tests/3-01.in > ./solution/3-01.out
+timeout 5s ./nile < ./tests/1-01.in > ./solution/1-01.out
+timeout 5s ./nile < ./tests/2-05.in > ./solution/2-05.out
+timeout 5s ./nile < ./tests/4-03.in > ./solution/4-03.out
+timeout 5s ./nile < ./tests/5-06.in > ./solution/5-06.out
+timeout 5s ./nile < ./tests/3-04.in > ./solution/3-04.out
+timeout 5s ./nile < ./tests/2-04.in > ./solution/2-04.out
+timeout 5s ./nile < ./tests/5-04.in > ./solution/5-04.out
+timeout 5s ./nile < ./tests/2-02.in > ./solution/2-02.out
+timeout 5s ./nile < ./tests/3-03.in > ./solution/3-03.out
+timeout 5s ./nile < ./tests/5-01.in > ./solution/5-01.out
+timeout 5s ./nile < ./tests/3-02.in > ./solution/3-02.out
+timeout 5s ./nile < ./tests/6-09.in > ./solution/6-09.out
+timeout 5s ./nile < ./tests/6-02.in > ./solution/6-02.out
+timeout 5s ./nile < ./tests/2-03.in > ./solution/2-03.out
+timeout 5s ./nile < ./tests/6-01.in > ./solution/6-01.out
+timeout 5s ./nile < ./tests/3-05.in > ./solution/3-05.out
+timeout 5s ./nile < ./tests/7-02.in > ./solution/7-02.out
+timeout 5s ./nile < ./tests/2-06.in > ./solution/2-06.out
+timeout 5s ./nile < ./tests/7-04.in > ./solution/7-04.out
+timeout 5s ./nile < ./tests/4-06.in > ./solution/4-06.out
+timeout 5s ./nile < ./tests/3-06.in > ./solution/3-06.out
+timeout 5s ./nile < ./tests/1-06.in > ./solution/1-06.out
+timeout 5s ./nile < ./tests/1-03.in > ./solution/1-03.out
+timeout 5s ./nile < ./tests/7-07.in > ./solution/7-07.out
+timeout 5s ./nile < ./tests/4-01.in > ./solution/4-01.out
+timeout 5s ./nile < ./tests/4-05.in > ./solution/4-05.out
+timeout 5s ./nile < ./tests/6-08.in > ./solution/6-08.out
+timeout 5s ./nile < ./tests/7-08.in > ./solution/7-08.out
+timeout 5s ./nile < ./tests/5-03.in > ./solution/5-03.out
+timeout 5s ./nile < ./tests/7-05.in > ./solution/7-05.out
+timeout 5s ./nile < ./tests/6-03.in > ./solution/6-03.out
+timeout 5s ./nile < ./tests/5-02.in > ./solution/5-02.out
+timeout 5s ./nile < ./tests/6-06.in > ./solution/6-06.out
+timeout 5s ./nile < ./tests/4-02.in > ./solution/4-02.out
+timeout 5s ./nile < ./tests/2-01.in > ./solution/2-01.out
+timeout 5s ./nile < ./tests/5-05.in > ./solution/5-05.out

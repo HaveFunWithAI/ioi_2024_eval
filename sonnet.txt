@@ -1,0 +1,827 @@
+
+--------------------------------
+
+Problem: nile
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: 7-01 -> Score: 0
+  Test Case: 1-03 -> Score: 0
+  Test Case: 6-07 -> Score: 0
+  Test Case: 6-04 -> Score: 0
+  Test Case: 6-06 -> Score: 0
+  Test Case: 4-06 -> Score: 1
+  Test Case: 5-01 -> Score: 0
+  Test Case: 6-08 -> Score: 0
+  Test Case: 2-01 -> Score: 0
+  Test Case: 2-03 -> Score: 0
+  Test Case: 7-07 -> Score: 0
+  Test Case: 3-01 -> Score: 0
+  Test Case: 2-05 -> Score: 0
+  Test Case: 6-03 -> Score: 0
+  Test Case: 4-01 -> Score: 0
+  Test Case: 3-02 -> Score: 0
+  Test Case: 6-02 -> Score: 0
+  Test Case: 7-02 -> Score: 0
+  Test Case: 7-08 -> Score: 0
+  Test Case: 3-06 -> Score: 1
+  Test Case: 7-03 -> Score: 0
+  Test Case: 2-04 -> Score: 0
+  Test Case: 2-02 -> Score: 0
+  Test Case: 5-05 -> Score: 0
+  Test Case: 1-01 -> Score: 0
+  Test Case: 6-05 -> Score: 0
+  Test Case: 6-09 -> Score: 0
+  Test Case: 5-03 -> Score: 0
+  Test Case: 3-04 -> Score: 0
+  Test Case: 3-03 -> Score: 0
+  Test Case: 4-05 -> Score: 0
+  Test Case: 6-01 -> Score: 0
+  Test Case: 1-06 -> Score: 1
+  Test Case: 7-05 -> Score: 0
+  Test Case: 1-02 -> Score: 0
+  Test Case: 2-06 -> Score: 0
+  Test Case: 7-04 -> Score: 0
+  Test Case: 7-09 -> Score: 0
+  Test Case: 7-06 -> Score: 0
+  Test Case: 4-03 -> Score: 0
+  Test Case: 0-01 -> Score: 0
+  Test Case: 4-04 -> Score: 0
+  Test Case: 3-05 -> Score: 0
+  Test Case: 1-05 -> Score: 1
+  Test Case: 5-06 -> Score: 1
+  Test Case: 4-02 -> Score: 0
+  Test Case: 5-04 -> Score: 0
+  Test Case: 1-04 -> Score: 1
+  Test Case: 5-02 -> Score: 0
+
+Subtask Scores:
+  Subtask: 07-full -> Score: 0
+  Subtask: 01-equal -> Score: 0
+  Subtask: 06-minpack -> Score: 0
+  Subtask: 00-samples -> Score: 0
+  Subtask: 03-minpack_q5 -> Score: 0
+  Subtask: 05-q5 -> Score: 0
+  Subtask: 02-permutation -> Score: 0
+  Subtask: 04-n2 -> Score: 0
+
+Total Score: 0
+
+--------------------------------
+
+Problem: message
+Compilation Output: 
+Compilation Error (if any): message.cpp: In function ‘void send_message(std::vector<bool>, std::vector<bool>)’:
+message.cpp:15:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<bool>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   15 |     while (bits_sent < M.size()) {
+      |            ~~~~~~~~~~^~~~~~~~~~
+message.cpp:17:58: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<bool>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   17 |         for (int i = 0; i < BITS_PER_PACKET && bits_sent < M.size(); i++) {
+      |                                                ~~~~~~~~~~^~~~~~~~~~
+message.cpp: In function ‘std::vector<bool> receive_message(std::vector<std::vector<bool> >)’:
+message.cpp:32:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<bool> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   32 |         for (int j = 1; j < R.size(); j++) {
+      |                         ~~^~~~~~~~~~
+
+Execution Output: 
+Execution Error (if any): timeout: the monitored command dumped core
+message/run_cpp.sh: line 17: 3180332 Segmentation fault      timeout 5s ./message < ./tests/2-14.in > ./claude-3-5-sonnet/2-14.out
+timeout: the monitored command dumped core
+message/run_cpp.sh: line 20: 3180344 Segmentation fault      timeout 5s ./message < ./tests/2-02.in > ./claude-3-5-sonnet/2-02.out
+timeout: the monitored command dumped core
+message/run_cpp.sh: line 31: 3180428 Segmentation fault      timeout 5s ./message < ./tests/2-15.in > ./claude-3-5-sonnet/2-15.out
+
+
+Test Case Scores:
+  Test Case: 2-16 -> Score: 0
+  Test Case: 1-03 -> Score: 0
+  Test Case: 2-13 -> Score: 0
+  Test Case: 2-20 -> Score: 0
+  Test Case: 2-08 -> Score: 0
+  Test Case: 2-10 -> Score: 0
+  Test Case: 2-01 -> Score: 0
+  Test Case: 2-03 -> Score: 0
+  Test Case: 2-05 -> Score: 0
+  Test Case: 2-04 -> Score: 0
+  Test Case: 2-02 -> Score: 0
+  Test Case: 1-01 -> Score: 0
+  Test Case: 2-12 -> Score: 0
+  Test Case: 2-15 -> Score: 0
+  Test Case: 2-11 -> Score: 0
+  Test Case: 1-06 -> Score: 0
+  Test Case: 2-17 -> Score: 0
+  Test Case: 1-02 -> Score: 0
+  Test Case: 2-06 -> Score: 0
+  Test Case: 0-01 -> Score: 0
+  Test Case: 1-07 -> Score: 0
+  Test Case: 2-18 -> Score: 0
+  Test Case: 2-09 -> Score: 0
+  Test Case: 1-05 -> Score: 0
+  Test Case: 2-14 -> Score: 0
+  Test Case: 2-19 -> Score: 0
+  Test Case: 1-04 -> Score: 0
+  Test Case: 2-07 -> Score: 0
+
+Subtask Scores:
+  Subtask: 01-len64 -> Score: 0
+  Subtask: 02-full -> Score: 0
+  Subtask: 00-samples -> Score: 0
+
+Total Score: 0
+
+--------------------------------
+
+Problem: tree
+Compilation Output: 
+Compilation Error (if any): tree.cpp: In lambda function:
+tree.cpp:35:19: warning: unused variable ‘weight_sum’ [-Wunused-variable]
+   35 |         long long weight_sum = subtree_weight[node];
+      |                   ^~~~~~~~~~
+
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: 7-01 -> Score: 0
+  Test Case: 1-03 -> Score: 0
+  Test Case: 6-07 -> Score: 0
+  Test Case: 6-04 -> Score: 0
+  Test Case: 6-06 -> Score: 0
+  Test Case: 4-06 -> Score: 0
+  Test Case: 2-08 -> Score: 0
+  Test Case: 7-14 -> Score: 0
+  Test Case: 5-01 -> Score: 0
+  Test Case: 6-08 -> Score: 0
+  Test Case: 2-01 -> Score: 0
+  Test Case: 1-10 -> Score: 0
+  Test Case: 2-03 -> Score: 0
+  Test Case: 7-07 -> Score: 0
+  Test Case: 3-01 -> Score: 0
+  Test Case: 2-05 -> Score: 0
+  Test Case: 6-03 -> Score: 0
+  Test Case: 4-01 -> Score: 0
+  Test Case: 3-02 -> Score: 0
+  Test Case: 6-02 -> Score: 0
+  Test Case: 7-02 -> Score: 0
+  Test Case: 3-10 -> Score: 0
+  Test Case: 7-08 -> Score: 0
+  Test Case: 3-06 -> Score: 0
+  Test Case: 7-03 -> Score: 0
+  Test Case: 2-04 -> Score: 0
+  Test Case: 2-02 -> Score: 0
+  Test Case: 5-05 -> Score: 0
+  Test Case: 1-01 -> Score: 0
+  Test Case: 3-14 -> Score: 0
+  Test Case: 6-05 -> Score: 0
+  Test Case: 7-11 -> Score: 0
+  Test Case: 6-09 -> Score: 0
+  Test Case: 3-08 -> Score: 0
+  Test Case: 5-03 -> Score: 0
+  Test Case: 3-04 -> Score: 0
+  Test Case: 3-03 -> Score: 0
+  Test Case: 4-05 -> Score: 0
+  Test Case: 1-08 -> Score: 0
+  Test Case: 6-01 -> Score: 0
+  Test Case: 1-06 -> Score: 0
+  Test Case: 7-05 -> Score: 0
+  Test Case: 1-02 -> Score: 0
+  Test Case: 6-10 -> Score: 0
+  Test Case: 3-13 -> Score: 0
+  Test Case: 2-06 -> Score: 0
+  Test Case: 7-04 -> Score: 0
+  Test Case: 7-09 -> Score: 0
+  Test Case: 1-09 -> Score: 0
+  Test Case: 7-06 -> Score: 0
+  Test Case: 4-03 -> Score: 0
+  Test Case: 7-12 -> Score: 0
+  Test Case: 3-09 -> Score: 0
+  Test Case: 7-10 -> Score: 0
+  Test Case: 0-01 -> Score: 0
+  Test Case: 4-08 -> Score: 0
+  Test Case: 1-07 -> Score: 0
+  Test Case: 4-04 -> Score: 0
+  Test Case: 3-07 -> Score: 0
+  Test Case: 3-05 -> Score: 0
+  Test Case: 3-12 -> Score: 0
+  Test Case: 1-05 -> Score: 0
+  Test Case: 3-11 -> Score: 0
+  Test Case: 5-06 -> Score: 0
+  Test Case: 4-07 -> Score: 0
+  Test Case: 4-02 -> Score: 0
+  Test Case: 7-13 -> Score: 0
+  Test Case: 5-04 -> Score: 0
+  Test Case: 1-04 -> Score: 0
+  Test Case: 5-02 -> Score: 0
+  Test Case: 2-07 -> Score: 0
+
+Subtask Scores:
+  Subtask: 02-sqn2 -> Score: 0
+  Subtask: 01-sqwinc -> Score: 0
+  Subtask: 07-full -> Score: 0
+  Subtask: 06-L1 -> Score: 0
+  Subtask: 05-W01 -> Score: 0
+  Subtask: 00-samples -> Score: 0
+  Subtask: 03-sqnlg -> Score: 0
+  Subtask: 04-W1 -> Score: 0
+
+Total Score: 0
+
+--------------------------------
+
+Problem: hieroglyphs
+Compilation Output: 
+Compilation Error (if any): hieroglyphs.cpp: In function ‘std::vector<int> ucs(std::vector<int>, std::vector<int>)’:
+hieroglyphs.cpp:10:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   10 |     for (int i = 0; i < A.size(); i++) {
+      |                     ~~^~~~~~~~~~
+hieroglyphs.cpp:13:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   13 |     for (int i = 0; i < B.size(); i++) {
+      |                     ~~^~~~~~~~~~
+hieroglyphs.cpp:54:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   54 |     for (int i = 0; i < result.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~
+
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: ps-sml-neg-01 -> Score: 1
+  Test Case: cnt3-j2-neg-33 -> Score: 0
+  Test Case: ps-sml-neg-04 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: j2-neg-18 -> Score: 1
+  Test Case: j2-neg-05 -> Score: 0
+  Test Case: ps-sml-neg-03 -> Score: 1
+  Test Case: cnt3-j2-pos-05 -> Score: 0
+  Test Case: cnt3-j2-neg-05 -> Score: 0
+  Test Case: cnt3-j2-neg-10 -> Score: 0
+  Test Case: j2-neg-20 -> Score: 1
+  Test Case: cnt3-j2-neg-27 -> Score: 1
+  Test Case: cnt3-j-pos-04 -> Score: 0
+  Test Case: 5-12 -> Score: 0
+  Test Case: j2-pos-07 -> Score: 0
+  Test Case: cnt3-j2-neg-32 -> Score: 0
+  Test Case: 6-04 -> Score: 1
+  Test Case: smallcnt3-01 -> Score: 1
+  Test Case: j2-neg-26 -> Score: 1
+  Test Case: 5-14 -> Score: 0
+  Test Case: j2-neg-10 -> Score: 1
+  Test Case: j2-neg-32 -> Score: 1
+  Test Case: 5-11 -> Score: 0
+  Test Case: j2-neg-28 -> Score: 1
+  Test Case: bin-pos-04 -> Score: 0
+  Test Case: 6-06 -> Score: 0
+  Test Case: j2-neg-19 -> Score: 1
+  Test Case: cnt3-j2-neg-24 -> Score: 1
+  Test Case: ac-sml-pos-04 -> Score: 0
+  Test Case: cnt3ucs-07 -> Score: 0
+  Test Case: 4-06 -> Score: 0
+  Test Case: cnt3-j2-neg-08 -> Score: 1
+  Test Case: cnt3-j2-neg-31 -> Score: 1
+  Test Case: cnt3-j2-neg-22 -> Score: 0
+  Test Case: ins10000-07 -> Score: 0
+  Test Case: j2-pos-02 -> Score: 0
+  Test Case: smallbin-04 -> Score: 0
+  Test Case: cnt3ucs-04 -> Score: 1
+  Test Case: 5-01 -> Score: 0
+  Test Case: j2-neg-34 -> Score: 1
+  Test Case: ac-lrg-neg-02 -> Score: 1
+  Test Case: j2-neg-36 -> Score: 1
+  Test Case: smallbin-06 -> Score: 1
+  Test Case: j2-pos-05 -> Score: 0
+  Test Case: ac-sml-neg-02 -> Score: 1
+  Test Case: j2-neg-13 -> Score: 0
+  Test Case: ps-lrg-neg-04 -> Score: 1
+  Test Case: 3-01 -> Score: 0
+  Test Case: cnt3-j2-neg-26 -> Score: 1
+  Test Case: cnt3-j2-neg-01 -> Score: 0
+  Test Case: cnt3-j-neg-08 -> Score: 0
+  Test Case: cnt3-j2-neg-04 -> Score: 0
+  Test Case: cnt3-j2-neg-20 -> Score: 1
+  Test Case: 6-03 -> Score: 1
+  Test Case: cnt3-j2-neg-29 -> Score: 1
+  Test Case: 4-01 -> Score: 0
+  Test Case: 3-02 -> Score: 1
+  Test Case: ins10000-02 -> Score: 0
+  Test Case: smallbin-03 -> Score: 0
+  Test Case: cnt3ucs-08 -> Score: 0
+  Test Case: j2-neg-27 -> Score: 1
+  Test Case: j2-neg-11 -> Score: 1
+  Test Case: j2-neg-21 -> Score: 0
+  Test Case: 6-02 -> Score: 1
+  Test Case: ps-lrg-neg-02 -> Score: 1
+  Test Case: j2-pos-09 -> Score: 0
+  Test Case: j2-neg-08 -> Score: 1
+  Test Case: cnt3ucs-03 -> Score: 1
+  Test Case: cnt3ucs-01 -> Score: 1
+  Test Case: j2-neg-03 -> Score: 1
+  Test Case: 3-10 -> Score: 0
+  Test Case: cnt3-j-neg-01 -> Score: 0
+  Test Case: 3-06 -> Score: 1
+  Test Case: ac-lrg-pos-03 -> Score: 0
+  Test Case: cnt3-j2-neg-30 -> Score: 1
+  Test Case: 5-15 -> Score: 0
+  Test Case: ac-lrg-neg-01 -> Score: 1
+  Test Case: ins10000-08 -> Score: 0
+  Test Case: cnt3-j-neg-03 -> Score: 0
+  Test Case: 5-05 -> Score: 1
+  Test Case: cnt3-j2-neg-02 -> Score: 0
+  Test Case: cnt3-j2-pos-03 -> Score: 0
+  Test Case: cnt3-j2-neg-19 -> Score: 0
+  Test Case: 1-01 -> Score: 1
+  Test Case: 5-10 -> Score: 0
+  Test Case: ac-lrg-neg-04 -> Score: 1
+  Test Case: j2-neg-07 -> Score: 1
+  Test Case: ac-lrg-neg-03 -> Score: 1
+  Test Case: 6-05 -> Score: 1
+  Test Case: cnt3-j2-neg-03 -> Score: 1
+  Test Case: ps-sml-pos-03 -> Score: 0
+  Test Case: cnt3-j2-neg-25 -> Score: 1
+  Test Case: ac-sml-pos-03 -> Score: 0
+  Test Case: smallbin-09 -> Score: 1
+  Test Case: j2-neg-23 -> Score: 1
+  Test Case: j2-pos-08 -> Score: 0
+  Test Case: cnt3-j-neg-07 -> Score: 0
+  Test Case: ps-lrg-neg-05 -> Score: 1
+  Test Case: smallbin-02 -> Score: 0
+  Test Case: cnt3-j2-neg-13 -> Score: 0
+  Test Case: cnt3-j2-pos-02 -> Score: 0
+  Test Case: ins10000-04 -> Score: 1
+  Test Case: cnt3-j2-neg-07 -> Score: 0
+  Test Case: 3-08 -> Score: 1
+  Test Case: cnt3-j2-pos-04 -> Score: 0
+  Test Case: 5-03 -> Score: 0
+  Test Case: 3-04 -> Score: 1
+  Test Case: cnt3-j-pos-03 -> Score: 0
+  Test Case: ps-lrg-pos-06 -> Score: 0
+  Test Case: ac-sml-neg-04 -> Score: 1
+  Test Case: 3-03 -> Score: 0
+  Test Case: cnt3-j-neg-04 -> Score: 0
+  Test Case: ac-sml-pos-01 -> Score: 0
+  Test Case: 4-05 -> Score: 0
+  Test Case: cnt3-j2-neg-23 -> Score: 1
+  Test Case: ps-sml-neg-02 -> Score: 1
+  Test Case: cnt3-j2-neg-34 -> Score: 1
+  Test Case: smallcnt3-02 -> Score: 1
+  Test Case: cnt3-j2-neg-17 -> Score: 0
+  Test Case: j2-neg-02 -> Score: 1
+  Test Case: ps-lrg-neg-06 -> Score: 0
+  Test Case: cnt3ucs-09 -> Score: 0
+  Test Case: cnt3-j2-pos-06 -> Score: 0
+  Test Case: 6-01 -> Score: 1
+  Test Case: j2-neg-22 -> Score: 1
+  Test Case: 1-06 -> Score: 0
+  Test Case: cnt3-j2-neg-16 -> Score: 0
+  Test Case: ins10000-01 -> Score: 0
+  Test Case: cnt3-j-neg-06 -> Score: 0
+  Test Case: j2-neg-04 -> Score: 1
+  Test Case: cnt3ucs-02 -> Score: 1
+  Test Case: j2-neg-06 -> Score: 1
+  Test Case: 1-02 -> Score: 0
+  Test Case: ps-lrg-pos-05 -> Score: 0
+  Test Case: j2-neg-25 -> Score: 0
+  Test Case: ps-sml-pos-01 -> Score: 0
+  Test Case: j2-neg-33 -> Score: 0
+  Test Case: ps-lrg-neg-01 -> Score: 1
+  Test Case: j2-neg-35 -> Score: 0
+  Test Case: ins10000-05 -> Score: 1
+  Test Case: j2-pos-03 -> Score: 0
+  Test Case: ps-lrg-pos-02 -> Score: 0
+  Test Case: bin-pos-03 -> Score: 0
+  Test Case: smallbin-01 -> Score: 0
+  Test Case: bin-pos-06 -> Score: 0
+  Test Case: 5-08 -> Score: 1
+  Test Case: cnt3-j2-neg-14 -> Score: 1
+  Test Case: cnt3ucs-06 -> Score: 0
+  Test Case: ins10000-06 -> Score: 1
+  Test Case: cnt3-j2-neg-09 -> Score: 1
+  Test Case: 0-03 -> Score: 1
+  Test Case: j2-neg-17 -> Score: 0
+  Test Case: cnt3-j2-pos-01 -> Score: 0
+  Test Case: 4-03 -> Score: 0
+  Test Case: j2-neg-31 -> Score: 1
+  Test Case: 3-09 -> Score: 1
+  Test Case: 0-01 -> Score: 0
+  Test Case: j2-neg-16 -> Score: 1
+  Test Case: ps-sml-pos-02 -> Score: 0
+  Test Case: 4-08 -> Score: 0
+  Test Case: 1-07 -> Score: 0
+  Test Case: ps-lrg-pos-04 -> Score: 0
+  Test Case: smallbin-08 -> Score: 1
+  Test Case: ac-sml-pos-02 -> Score: 0
+  Test Case: bin-pos-01 -> Score: 0
+  Test Case: 5-13 -> Score: 0
+  Test Case: cnt3-j2-neg-06 -> Score: 1
+  Test Case: 5-16 -> Score: 1
+  Test Case: 4-04 -> Score: 0
+  Test Case: 0-02 -> Score: 0
+  Test Case: 3-07 -> Score: 0
+  Test Case: cnt3-j2-neg-21 -> Score: 1
+  Test Case: n2hacks-01 -> Score: 1
+  Test Case: j2-neg-24 -> Score: 1
+  Test Case: bin-pos-05 -> Score: 0
+  Test Case: cnt3-j2-neg-28 -> Score: 0
+  Test Case: ins10000-03 -> Score: 0
+  Test Case: 5-09 -> Score: 1
+  Test Case: cnt3-j-pos-02 -> Score: 0
+  Test Case: j2-pos-06 -> Score: 0
+  Test Case: j2-neg-30 -> Score: 0
+  Test Case: 3-05 -> Score: 0
+  Test Case: cnt3-j-neg-05 -> Score: 0
+  Test Case: smallbin-05 -> Score: 0
+  Test Case: j2-neg-01 -> Score: 0
+  Test Case: j2-pos-01 -> Score: 0
+  Test Case: ac-sml-neg-01 -> Score: 1
+  Test Case: smallbin-07 -> Score: 1
+  Test Case: 1-05 -> Score: 0
+  Test Case: j2-neg-09 -> Score: 0
+  Test Case: ps-lrg-pos-01 -> Score: 0
+  Test Case: bin-pos-02 -> Score: 0
+  Test Case: 3-11 -> Score: 1
+  Test Case: cnt3-j2-neg-18 -> Score: 0
+  Test Case: 5-06 -> Score: 1
+  Test Case: ps-lrg-pos-03 -> Score: 0
+  Test Case: cnt3-j2-neg-15 -> Score: 1
+  Test Case: ac-lrg-pos-01 -> Score: 0
+  Test Case: 4-07 -> Score: 0
+  Test Case: 4-02 -> Score: 0
+  Test Case: j2-neg-15 -> Score: 1
+  Test Case: 5-18 -> Score: 1
+  Test Case: j2-neg-29 -> Score: 0
+  Test Case: 5-04 -> Score: 0
+  Test Case: cnt3ucs-05 -> Score: 0
+  Test Case: ps-lrg-neg-03 -> Score: 1
+  Test Case: j2-neg-14 -> Score: 0
+  Test Case: cnt3-j-neg-02 -> Score: 0
+  Test Case: cnt3-j-pos-01 -> Score: 0
+  Test Case: cnt3-j2-neg-12 -> Score: 1
+  Test Case: ac-lrg-pos-02 -> Score: 0
+  Test Case: 5-07 -> Score: 1
+  Test Case: 5-17 -> Score: 0
+  Test Case: ps-sml-pos-04 -> Score: 0
+  Test Case: cnt3-j2-neg-11 -> Score: 0
+  Test Case: ac-sml-neg-03 -> Score: 1
+  Test Case: j2-neg-12 -> Score: 1
+  Test Case: ac-lrg-pos-04 -> Score: 0
+  Test Case: 1-04 -> Score: 0
+  Test Case: 5-02 -> Score: 0
+  Test Case: j2-pos-04 -> Score: 0
+
+Subtask Scores:
+  Subtask: 04-hasucs -> Score: 0
+  Subtask: 01-perm -> Score: 0
+  Subtask: 06-full -> Score: 0
+  Subtask: 00-samples -> Score: 0
+  Subtask: 03-bin -> Score: 0
+  Subtask: 02-cnt3 -> Score: 0
+  Subtask: 05-n2 -> Score: 0
+
+Total Score: 0
+
+--------------------------------
+
+Problem: mosaic
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 6: 3185690 Aborted                 timeout 5s ./mosaic < ./tests/7-01.in > ./claude-3-5-sonnet/7-01.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 7: 3185698 Aborted                 timeout 5s ./mosaic < ./tests/7-03.in > ./claude-3-5-sonnet/7-03.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 8: 3185716 Aborted                 timeout 5s ./mosaic < ./tests/5-07.in > ./claude-3-5-sonnet/5-07.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 9: 3185726 Aborted                 timeout 5s ./mosaic < ./tests/7-06.in > ./claude-3-5-sonnet/7-06.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 12: 3185739 Aborted                 timeout 5s ./mosaic < ./tests/6-07.in > ./claude-3-5-sonnet/6-07.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 13: 3185744 Aborted                 timeout 5s ./mosaic < ./tests/5-08.in > ./claude-3-5-sonnet/5-08.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 16: 3185755 Aborted                 timeout 5s ./mosaic < ./tests/6-04.in > ./claude-3-5-sonnet/6-04.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 17: 3185764 Aborted                 timeout 5s ./mosaic < ./tests/6-05.in > ./claude-3-5-sonnet/6-05.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 19: 3185774 Aborted                 timeout 5s ./mosaic < ./tests/5-10.in > ./claude-3-5-sonnet/5-10.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 20: 3185784 Aborted                 timeout 5s ./mosaic < ./tests/3-01.in > ./claude-3-5-sonnet/3-01.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 25: 3185799 Aborted                 timeout 5s ./mosaic < ./tests/5-06.in > ./claude-3-5-sonnet/5-06.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 26: 3185809 Aborted                 timeout 5s ./mosaic < ./tests/3-04.in > ./claude-3-5-sonnet/3-04.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 27: 3185814 Aborted                 timeout 5s ./mosaic < ./tests/8-07.in > ./claude-3-5-sonnet/8-07.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 29: 3185823 Aborted                 timeout 5s ./mosaic < ./tests/5-04.in > ./claude-3-5-sonnet/5-04.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 30: 3185832 Aborted                 timeout 5s ./mosaic < ./tests/8-04.in > ./claude-3-5-sonnet/8-04.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 32: 3185843 Aborted                 timeout 5s ./mosaic < ./tests/3-03.in > ./claude-3-5-sonnet/3-03.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 34: 3185855 Aborted                 timeout 5s ./mosaic < ./tests/3-02.in > ./claude-3-5-sonnet/3-02.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 36: 3185864 Aborted                 timeout 5s ./mosaic < ./tests/5-09.in > ./claude-3-5-sonnet/5-09.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 38: 3185875 Aborted                 timeout 5s ./mosaic < ./tests/6-02.in > ./claude-3-5-sonnet/6-02.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 41: 3185884 Aborted                 timeout 5s ./mosaic < ./tests/6-01.in > ./claude-3-5-sonnet/6-01.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 42: 3185893 Aborted                 timeout 5s ./mosaic < ./tests/3-05.in > ./claude-3-5-sonnet/3-05.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 43: 3185900 Aborted                 timeout 5s ./mosaic < ./tests/8-02.in > ./claude-3-5-sonnet/8-02.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 44: 3185908 Aborted                 timeout 5s ./mosaic < ./tests/5-11.in > ./claude-3-5-sonnet/5-11.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 45: 3185918 Aborted                 timeout 5s ./mosaic < ./tests/7-02.in > ./claude-3-5-sonnet/7-02.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 47: 3185927 Aborted                 timeout 5s ./mosaic < ./tests/7-04.in > ./claude-3-5-sonnet/7-04.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 48: 3185932 Aborted                 timeout 5s ./mosaic < ./tests/8-01.in > ./claude-3-5-sonnet/8-01.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 49: 3185941 Aborted                 timeout 5s ./mosaic < ./tests/8-08.in > ./claude-3-5-sonnet/8-08.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 53: 3185954 Aborted                 timeout 5s ./mosaic < ./tests/7-07.in > ./claude-3-5-sonnet/7-07.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 58: 3185976 Aborted                 timeout 5s ./mosaic < ./tests/8-06.in > ./claude-3-5-sonnet/8-06.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 59: 3185983 Aborted                 timeout 5s ./mosaic < ./tests/5-03.in > ./claude-3-5-sonnet/5-03.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 60: 3185988 Aborted                 timeout 5s ./mosaic < ./tests/7-05.in > ./claude-3-5-sonnet/7-05.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 61: 3185997 Aborted                 timeout 5s ./mosaic < ./tests/8-05.in > ./claude-3-5-sonnet/8-05.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 62: 3186004 Aborted                 timeout 5s ./mosaic < ./tests/8-03.in > ./claude-3-5-sonnet/8-03.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 63: 3186013 Aborted                 timeout 5s ./mosaic < ./tests/6-03.in > ./claude-3-5-sonnet/6-03.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 64: 3186018 Aborted                 timeout 5s ./mosaic < ./tests/5-02.in > ./claude-3-5-sonnet/5-02.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 65: 3186030 Aborted                 timeout 5s ./mosaic < ./tests/6-06.in > ./claude-3-5-sonnet/6-06.out
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+mosaic/run_cpp.sh: line 68: 3186044 Aborted                 timeout 5s ./mosaic < ./tests/5-05.in > ./claude-3-5-sonnet/5-05.out
+
+
+Test Case Scores:
+  Test Case: 7-01 -> Score: 0
+  Test Case: 1-03 -> Score: 1
+  Test Case: 6-07 -> Score: 0
+  Test Case: 6-04 -> Score: 0
+  Test Case: 5-11 -> Score: 0
+  Test Case: 8-03 -> Score: 0
+  Test Case: 8-04 -> Score: 0
+  Test Case: 6-06 -> Score: 0
+  Test Case: 4-06 -> Score: 1
+  Test Case: 5-01 -> Score: 1
+  Test Case: 2-01 -> Score: 1
+  Test Case: 1-10 -> Score: 1
+  Test Case: 2-03 -> Score: 1
+  Test Case: 7-07 -> Score: 0
+  Test Case: 3-01 -> Score: 0
+  Test Case: 2-05 -> Score: 1
+  Test Case: 6-03 -> Score: 0
+  Test Case: 4-01 -> Score: 1
+  Test Case: 3-02 -> Score: 0
+  Test Case: 6-02 -> Score: 0
+  Test Case: 7-02 -> Score: 0
+  Test Case: 7-03 -> Score: 0
+  Test Case: 2-04 -> Score: 1
+  Test Case: 2-02 -> Score: 1
+  Test Case: 5-05 -> Score: 0
+  Test Case: 1-01 -> Score: 1
+  Test Case: 5-10 -> Score: 0
+  Test Case: 6-05 -> Score: 0
+  Test Case: 8-08 -> Score: 0
+  Test Case: 5-03 -> Score: 0
+  Test Case: 3-04 -> Score: 0
+  Test Case: 3-03 -> Score: 0
+  Test Case: 4-05 -> Score: 1
+  Test Case: 1-08 -> Score: 1
+  Test Case: 6-01 -> Score: 0
+  Test Case: 1-06 -> Score: 1
+  Test Case: 7-05 -> Score: 0
+  Test Case: 1-02 -> Score: 1
+  Test Case: 2-06 -> Score: 1
+  Test Case: 7-04 -> Score: 0
+  Test Case: 5-08 -> Score: 0
+  Test Case: 1-09 -> Score: 1
+  Test Case: 8-06 -> Score: 0
+  Test Case: 7-06 -> Score: 0
+  Test Case: 4-03 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: 8-02 -> Score: 0
+  Test Case: 4-08 -> Score: 1
+  Test Case: 1-07 -> Score: 1
+  Test Case: 4-04 -> Score: 1
+  Test Case: 5-09 -> Score: 0
+  Test Case: 3-05 -> Score: 0
+  Test Case: 1-05 -> Score: 1
+  Test Case: 8-05 -> Score: 0
+  Test Case: 8-01 -> Score: 0
+  Test Case: 5-06 -> Score: 0
+  Test Case: 4-07 -> Score: 1
+  Test Case: 8-07 -> Score: 0
+  Test Case: 4-02 -> Score: 1
+  Test Case: 5-04 -> Score: 0
+  Test Case: 5-07 -> Score: 0
+  Test Case: 1-04 -> Score: 1
+  Test Case: 5-02 -> Score: 0
+  Test Case: 2-07 -> Score: 1
+
+Subtask Scores:
+  Subtask: 02-NQ200 -> Score: 7
+  Subtask: 01-N2Q10 -> Score: 5
+  Subtask: 08-full -> Score: 0
+  Subtask: 00-samples -> Score: 0
+  Subtask: 05-X=Y=0 -> Score: 0
+  Subtask: 04-N5000 -> Score: 10
+  Subtask: 03-T=B=0 -> Score: 0
+  Subtask: 06-T=B&L=R -> Score: 0
+  Subtask: 07-T=B -> Score: 0
+
+Total Score: 22
+
+--------------------------------
+
+Problem: sphinx
+Compilation Output: 
+Compilation Error (if any): sphinx.cpp: In function ‘std::vector<int> find_colours(int, std::vector<int>, std::vector<int>)’:
+sphinx.cpp:10:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   10 |     for (int i = 0; i < X.size(); i++) {
+      |                     ~~^~~~~~~~~~
+
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: chain-small-01 -> Score: 0
+  Test Case: random-full-22 -> Score: 0
+  Test Case: random-full-05 -> Score: 0
+  Test Case: random-full-24 -> Score: 0
+  Test Case: 1-03 -> Score: 0
+  Test Case: random-full-18 -> Score: 0
+  Test Case: chain-small-07 -> Score: 0
+  Test Case: cliques-full-01 -> Score: 0
+  Test Case: complete-small-06 -> Score: 0
+  Test Case: complete-full-03 -> Score: 0
+  Test Case: complete-full-08 -> Score: 0
+  Test Case: random-full-06 -> Score: 0
+  Test Case: chain-full-08 -> Score: 0
+  Test Case: random-full-08 -> Score: 0
+  Test Case: coloring-small-03 -> Score: 0
+  Test Case: coloring-small-02 -> Score: 0
+  Test Case: complete-small-07 -> Score: 0
+  Test Case: complete-full-09 -> Score: 0
+  Test Case: chain-small-04 -> Score: 0
+  Test Case: random-full-03 -> Score: 0
+  Test Case: random-small-07 -> Score: 0
+  Test Case: coloring-small-01 -> Score: 0
+  Test Case: random-full-13 -> Score: 0
+  Test Case: random-full-17 -> Score: 0
+  Test Case: random-full-09 -> Score: 0
+  Test Case: chain-full-03 -> Score: 0
+  Test Case: random-small-03 -> Score: 0
+  Test Case: coloring-full-03 -> Score: 0
+  Test Case: random-small-08 -> Score: 0
+  Test Case: chain-full-05 -> Score: 0
+  Test Case: chain-small-02 -> Score: 0
+  Test Case: cliques-full-03 -> Score: 0
+  Test Case: random-full-19 -> Score: 0
+  Test Case: complete-small-02 -> Score: 0
+  Test Case: random-small-04 -> Score: 0
+  Test Case: chain-full-09 -> Score: 0
+  Test Case: random-full-26 -> Score: 0
+  Test Case: 1-01 -> Score: 0
+  Test Case: complete-full-07 -> Score: 0
+  Test Case: chain-full-07 -> Score: 0
+  Test Case: random-full-11 -> Score: 0
+  Test Case: random-full-25 -> Score: 0
+  Test Case: cliques-full-04 -> Score: 0
+  Test Case: random-full-04 -> Score: 0
+  Test Case: chain-full-02 -> Score: 0
+  Test Case: chain-full-01 -> Score: 0
+  Test Case: random-full-14 -> Score: 0
+  Test Case: coloring-full-02 -> Score: 0
+  Test Case: cliques-full-02 -> Score: 0
+  Test Case: complete-small-08 -> Score: 0
+  Test Case: complete-small-05 -> Score: 0
+  Test Case: random-full-15 -> Score: 0
+  Test Case: random-small-09 -> Score: 0
+  Test Case: complete-full-01 -> Score: 0
+  Test Case: random-full-21 -> Score: 0
+  Test Case: 1-02 -> Score: 0
+  Test Case: coloring-full-04 -> Score: 0
+  Test Case: random-full-12 -> Score: 0
+  Test Case: complete-small-01 -> Score: 0
+  Test Case: coloring-small-04 -> Score: 0
+  Test Case: chain-small-05 -> Score: 0
+  Test Case: complete-full-06 -> Score: 0
+  Test Case: coloring-full-01 -> Score: 0
+  Test Case: chain-small-06 -> Score: 0
+  Test Case: chain-small-03 -> Score: 0
+  Test Case: chain-full-06 -> Score: 0
+  Test Case: 0-01 -> Score: 0
+  Test Case: random-small-02 -> Score: 0
+  Test Case: complete-full-04 -> Score: 0
+  Test Case: complete-small-04 -> Score: 0
+  Test Case: random-full-02 -> Score: 0
+  Test Case: random-full-16 -> Score: 0
+  Test Case: complete-small-03 -> Score: 0
+  Test Case: complete-full-05 -> Score: 0
+  Test Case: random-small-01 -> Score: 0
+  Test Case: chain-small-08 -> Score: 0
+  Test Case: complete-full-02 -> Score: 0
+  Test Case: random-small-05 -> Score: 0
+  Test Case: random-full-01 -> Score: 0
+  Test Case: random-full-07 -> Score: 0
+  Test Case: random-small-06 -> Score: 0
+  Test Case: random-full-23 -> Score: 0
+  Test Case: random-full-10 -> Score: 0
+  Test Case: chain-full-04 -> Score: 0
+  Test Case: random-full-20 -> Score: 0
+  Test Case: 1-04 -> Score: 0
+
+Subtask Scores:
+  Subtask: 01-N2 -> Score: 0
+  Subtask: 02-N50 -> Score: 0
+  Subtask: 00-samples -> Score: 0
+  Subtask: 04-complete -> Score: 0
+  Subtask: 05-full -> Score: 0
+  Subtask: 03-chain -> Score: 0
+
+Total Score: 0

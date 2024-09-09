@@ -1,0 +1,644 @@
+
+--------------------------------
+
+Problem: nile
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: 7-01 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: 6-07 -> Score: 1
+  Test Case: 6-04 -> Score: 1
+  Test Case: 6-06 -> Score: 1
+  Test Case: 4-06 -> Score: 1
+  Test Case: 5-01 -> Score: 1
+  Test Case: 6-08 -> Score: 1
+  Test Case: 2-01 -> Score: 1
+  Test Case: 2-03 -> Score: 1
+  Test Case: 7-07 -> Score: 1
+  Test Case: 3-01 -> Score: 1
+  Test Case: 2-05 -> Score: 1
+  Test Case: 6-03 -> Score: 1
+  Test Case: 4-01 -> Score: 1
+  Test Case: 3-02 -> Score: 1
+  Test Case: 6-02 -> Score: 1
+  Test Case: 7-02 -> Score: 1
+  Test Case: 7-08 -> Score: 1
+  Test Case: 3-06 -> Score: 1
+  Test Case: 7-03 -> Score: 1
+  Test Case: 2-04 -> Score: 1
+  Test Case: 2-02 -> Score: 1
+  Test Case: 5-05 -> Score: 1
+  Test Case: 1-01 -> Score: 1
+  Test Case: 6-05 -> Score: 1
+  Test Case: 6-09 -> Score: 1
+  Test Case: 5-03 -> Score: 1
+  Test Case: 3-04 -> Score: 1
+  Test Case: 3-03 -> Score: 1
+  Test Case: 4-05 -> Score: 1
+  Test Case: 6-01 -> Score: 1
+  Test Case: 1-06 -> Score: 1
+  Test Case: 7-05 -> Score: 1
+  Test Case: 1-02 -> Score: 1
+  Test Case: 2-06 -> Score: 1
+  Test Case: 7-04 -> Score: 1
+  Test Case: 7-09 -> Score: 1
+  Test Case: 7-06 -> Score: 1
+  Test Case: 4-03 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: 4-04 -> Score: 1
+  Test Case: 3-05 -> Score: 1
+  Test Case: 1-05 -> Score: 1
+  Test Case: 5-06 -> Score: 1
+  Test Case: 4-02 -> Score: 1
+  Test Case: 5-04 -> Score: 1
+  Test Case: 1-04 -> Score: 1
+  Test Case: 5-02 -> Score: 1
+
+Subtask Scores:
+  Subtask: 07-full -> Score: 18
+  Subtask: 01-equal -> Score: 6
+  Subtask: 06-minpack -> Score: 15
+  Subtask: 00-samples -> Score: 0
+  Subtask: 03-minpack_q5 -> Score: 17
+  Subtask: 05-q5 -> Score: 20
+  Subtask: 02-permutation -> Score: 13
+  Subtask: 04-n2 -> Score: 11
+
+Total Score: 100
+
+--------------------------------
+
+Problem: message
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: 2-16 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: 2-13 -> Score: 1
+  Test Case: 2-20 -> Score: 1
+  Test Case: 2-08 -> Score: 1
+  Test Case: 2-10 -> Score: 1
+  Test Case: 2-01 -> Score: 1
+  Test Case: 2-03 -> Score: 1
+  Test Case: 2-05 -> Score: 1
+  Test Case: 2-04 -> Score: 1
+  Test Case: 2-02 -> Score: 1
+  Test Case: 1-01 -> Score: 1
+  Test Case: 2-12 -> Score: 1
+  Test Case: 2-15 -> Score: 1
+  Test Case: 2-11 -> Score: 1
+  Test Case: 1-06 -> Score: 1
+  Test Case: 2-17 -> Score: 1
+  Test Case: 1-02 -> Score: 1
+  Test Case: 2-06 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: 1-07 -> Score: 1
+  Test Case: 2-18 -> Score: 1
+  Test Case: 2-09 -> Score: 1
+  Test Case: 1-05 -> Score: 1
+  Test Case: 2-14 -> Score: 1
+  Test Case: 2-19 -> Score: 1
+  Test Case: 1-04 -> Score: 1
+  Test Case: 2-07 -> Score: 1
+
+Subtask Scores:
+  Subtask: 01-len64 -> Score: 10
+  Subtask: 02-full -> Score: 90
+  Subtask: 00-samples -> Score: 0
+
+Total Score: 100
+
+--------------------------------
+
+Problem: tree
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: 7-01 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: 6-07 -> Score: 1
+  Test Case: 6-04 -> Score: 1
+  Test Case: 6-06 -> Score: 1
+  Test Case: 4-06 -> Score: 1
+  Test Case: 2-08 -> Score: 1
+  Test Case: 7-14 -> Score: 1
+  Test Case: 5-01 -> Score: 1
+  Test Case: 6-08 -> Score: 1
+  Test Case: 2-01 -> Score: 1
+  Test Case: 1-10 -> Score: 1
+  Test Case: 2-03 -> Score: 1
+  Test Case: 7-07 -> Score: 1
+  Test Case: 3-01 -> Score: 1
+  Test Case: 2-05 -> Score: 1
+  Test Case: 6-03 -> Score: 1
+  Test Case: 4-01 -> Score: 1
+  Test Case: 3-02 -> Score: 1
+  Test Case: 6-02 -> Score: 1
+  Test Case: 7-02 -> Score: 1
+  Test Case: 3-10 -> Score: 1
+  Test Case: 7-08 -> Score: 1
+  Test Case: 3-06 -> Score: 1
+  Test Case: 7-03 -> Score: 1
+  Test Case: 2-04 -> Score: 1
+  Test Case: 2-02 -> Score: 1
+  Test Case: 5-05 -> Score: 1
+  Test Case: 1-01 -> Score: 1
+  Test Case: 3-14 -> Score: 1
+  Test Case: 6-05 -> Score: 1
+  Test Case: 7-11 -> Score: 1
+  Test Case: 6-09 -> Score: 1
+  Test Case: 3-08 -> Score: 1
+  Test Case: 5-03 -> Score: 1
+  Test Case: 3-04 -> Score: 1
+  Test Case: 3-03 -> Score: 1
+  Test Case: 4-05 -> Score: 1
+  Test Case: 1-08 -> Score: 1
+  Test Case: 6-01 -> Score: 1
+  Test Case: 1-06 -> Score: 1
+  Test Case: 7-05 -> Score: 1
+  Test Case: 1-02 -> Score: 1
+  Test Case: 6-10 -> Score: 1
+  Test Case: 3-13 -> Score: 1
+  Test Case: 2-06 -> Score: 1
+  Test Case: 7-04 -> Score: 1
+  Test Case: 7-09 -> Score: 1
+  Test Case: 1-09 -> Score: 1
+  Test Case: 7-06 -> Score: 1
+  Test Case: 4-03 -> Score: 1
+  Test Case: 7-12 -> Score: 1
+  Test Case: 3-09 -> Score: 1
+  Test Case: 7-10 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: 4-08 -> Score: 1
+  Test Case: 1-07 -> Score: 1
+  Test Case: 4-04 -> Score: 1
+  Test Case: 3-07 -> Score: 1
+  Test Case: 3-05 -> Score: 1
+  Test Case: 3-12 -> Score: 1
+  Test Case: 1-05 -> Score: 1
+  Test Case: 3-11 -> Score: 1
+  Test Case: 5-06 -> Score: 1
+  Test Case: 4-07 -> Score: 1
+  Test Case: 4-02 -> Score: 1
+  Test Case: 7-13 -> Score: 1
+  Test Case: 5-04 -> Score: 1
+  Test Case: 1-04 -> Score: 1
+  Test Case: 5-02 -> Score: 1
+  Test Case: 2-07 -> Score: 1
+
+Subtask Scores:
+  Subtask: 02-sqn2 -> Score: 13
+  Subtask: 01-sqwinc -> Score: 10
+  Subtask: 07-full -> Score: 19
+  Subtask: 06-L1 -> Score: 22
+  Subtask: 05-W01 -> Score: 11
+  Subtask: 00-samples -> Score: 0
+  Subtask: 03-sqnlg -> Score: 18
+  Subtask: 04-W1 -> Score: 7
+
+Total Score: 100
+
+--------------------------------
+
+Problem: hieroglyphs
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: ps-sml-neg-01 -> Score: 1
+  Test Case: cnt3-j2-neg-33 -> Score: 1
+  Test Case: ps-sml-neg-04 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: j2-neg-18 -> Score: 1
+  Test Case: j2-neg-05 -> Score: 1
+  Test Case: ps-sml-neg-03 -> Score: 1
+  Test Case: cnt3-j2-pos-05 -> Score: 1
+  Test Case: cnt3-j2-neg-05 -> Score: 1
+  Test Case: cnt3-j2-neg-10 -> Score: 1
+  Test Case: j2-neg-20 -> Score: 1
+  Test Case: cnt3-j2-neg-27 -> Score: 1
+  Test Case: cnt3-j-pos-04 -> Score: 1
+  Test Case: 5-12 -> Score: 1
+  Test Case: j2-pos-07 -> Score: 1
+  Test Case: cnt3-j2-neg-32 -> Score: 1
+  Test Case: 6-04 -> Score: 1
+  Test Case: smallcnt3-01 -> Score: 1
+  Test Case: j2-neg-26 -> Score: 1
+  Test Case: 5-14 -> Score: 1
+  Test Case: j2-neg-10 -> Score: 1
+  Test Case: j2-neg-32 -> Score: 1
+  Test Case: 5-11 -> Score: 1
+  Test Case: j2-neg-28 -> Score: 1
+  Test Case: bin-pos-04 -> Score: 1
+  Test Case: 6-06 -> Score: 1
+  Test Case: j2-neg-19 -> Score: 1
+  Test Case: cnt3-j2-neg-24 -> Score: 1
+  Test Case: ac-sml-pos-04 -> Score: 1
+  Test Case: cnt3ucs-07 -> Score: 1
+  Test Case: 4-06 -> Score: 1
+  Test Case: cnt3-j2-neg-08 -> Score: 1
+  Test Case: cnt3-j2-neg-31 -> Score: 1
+  Test Case: cnt3-j2-neg-22 -> Score: 1
+  Test Case: ins10000-07 -> Score: 1
+  Test Case: j2-pos-02 -> Score: 1
+  Test Case: smallbin-04 -> Score: 1
+  Test Case: cnt3ucs-04 -> Score: 1
+  Test Case: 5-01 -> Score: 1
+  Test Case: j2-neg-34 -> Score: 1
+  Test Case: ac-lrg-neg-02 -> Score: 1
+  Test Case: j2-neg-36 -> Score: 1
+  Test Case: smallbin-06 -> Score: 1
+  Test Case: j2-pos-05 -> Score: 1
+  Test Case: ac-sml-neg-02 -> Score: 1
+  Test Case: j2-neg-13 -> Score: 1
+  Test Case: ps-lrg-neg-04 -> Score: 1
+  Test Case: 3-01 -> Score: 1
+  Test Case: cnt3-j2-neg-26 -> Score: 1
+  Test Case: cnt3-j2-neg-01 -> Score: 1
+  Test Case: cnt3-j-neg-08 -> Score: 1
+  Test Case: cnt3-j2-neg-04 -> Score: 1
+  Test Case: cnt3-j2-neg-20 -> Score: 1
+  Test Case: 6-03 -> Score: 1
+  Test Case: cnt3-j2-neg-29 -> Score: 1
+  Test Case: 4-01 -> Score: 1
+  Test Case: 3-02 -> Score: 1
+  Test Case: ins10000-02 -> Score: 1
+  Test Case: smallbin-03 -> Score: 1
+  Test Case: cnt3ucs-08 -> Score: 1
+  Test Case: j2-neg-27 -> Score: 1
+  Test Case: j2-neg-11 -> Score: 1
+  Test Case: j2-neg-21 -> Score: 1
+  Test Case: 6-02 -> Score: 1
+  Test Case: ps-lrg-neg-02 -> Score: 1
+  Test Case: j2-pos-09 -> Score: 1
+  Test Case: j2-neg-08 -> Score: 1
+  Test Case: cnt3ucs-03 -> Score: 1
+  Test Case: cnt3ucs-01 -> Score: 1
+  Test Case: j2-neg-03 -> Score: 1
+  Test Case: 3-10 -> Score: 1
+  Test Case: cnt3-j-neg-01 -> Score: 1
+  Test Case: 3-06 -> Score: 1
+  Test Case: ac-lrg-pos-03 -> Score: 1
+  Test Case: cnt3-j2-neg-30 -> Score: 1
+  Test Case: 5-15 -> Score: 1
+  Test Case: ac-lrg-neg-01 -> Score: 1
+  Test Case: ins10000-08 -> Score: 1
+  Test Case: cnt3-j-neg-03 -> Score: 1
+  Test Case: 5-05 -> Score: 1
+  Test Case: cnt3-j2-neg-02 -> Score: 1
+  Test Case: cnt3-j2-pos-03 -> Score: 1
+  Test Case: cnt3-j2-neg-19 -> Score: 1
+  Test Case: 1-01 -> Score: 1
+  Test Case: 5-10 -> Score: 1
+  Test Case: ac-lrg-neg-04 -> Score: 1
+  Test Case: j2-neg-07 -> Score: 1
+  Test Case: ac-lrg-neg-03 -> Score: 1
+  Test Case: 6-05 -> Score: 1
+  Test Case: cnt3-j2-neg-03 -> Score: 1
+  Test Case: ps-sml-pos-03 -> Score: 1
+  Test Case: cnt3-j2-neg-25 -> Score: 1
+  Test Case: ac-sml-pos-03 -> Score: 1
+  Test Case: smallbin-09 -> Score: 1
+  Test Case: j2-neg-23 -> Score: 1
+  Test Case: j2-pos-08 -> Score: 1
+  Test Case: cnt3-j-neg-07 -> Score: 1
+  Test Case: ps-lrg-neg-05 -> Score: 1
+  Test Case: smallbin-02 -> Score: 1
+  Test Case: cnt3-j2-neg-13 -> Score: 1
+  Test Case: cnt3-j2-pos-02 -> Score: 1
+  Test Case: ins10000-04 -> Score: 1
+  Test Case: cnt3-j2-neg-07 -> Score: 1
+  Test Case: 3-08 -> Score: 1
+  Test Case: cnt3-j2-pos-04 -> Score: 1
+  Test Case: 5-03 -> Score: 1
+  Test Case: 3-04 -> Score: 1
+  Test Case: cnt3-j-pos-03 -> Score: 1
+  Test Case: ps-lrg-pos-06 -> Score: 1
+  Test Case: ac-sml-neg-04 -> Score: 1
+  Test Case: 3-03 -> Score: 1
+  Test Case: cnt3-j-neg-04 -> Score: 1
+  Test Case: ac-sml-pos-01 -> Score: 1
+  Test Case: 4-05 -> Score: 1
+  Test Case: cnt3-j2-neg-23 -> Score: 1
+  Test Case: ps-sml-neg-02 -> Score: 1
+  Test Case: cnt3-j2-neg-34 -> Score: 1
+  Test Case: smallcnt3-02 -> Score: 1
+  Test Case: cnt3-j2-neg-17 -> Score: 1
+  Test Case: j2-neg-02 -> Score: 1
+  Test Case: ps-lrg-neg-06 -> Score: 1
+  Test Case: cnt3ucs-09 -> Score: 1
+  Test Case: cnt3-j2-pos-06 -> Score: 1
+  Test Case: 6-01 -> Score: 1
+  Test Case: j2-neg-22 -> Score: 1
+  Test Case: 1-06 -> Score: 1
+  Test Case: cnt3-j2-neg-16 -> Score: 1
+  Test Case: ins10000-01 -> Score: 1
+  Test Case: cnt3-j-neg-06 -> Score: 1
+  Test Case: j2-neg-04 -> Score: 1
+  Test Case: cnt3ucs-02 -> Score: 1
+  Test Case: j2-neg-06 -> Score: 1
+  Test Case: 1-02 -> Score: 1
+  Test Case: ps-lrg-pos-05 -> Score: 1
+  Test Case: j2-neg-25 -> Score: 1
+  Test Case: ps-sml-pos-01 -> Score: 1
+  Test Case: j2-neg-33 -> Score: 1
+  Test Case: ps-lrg-neg-01 -> Score: 1
+  Test Case: j2-neg-35 -> Score: 1
+  Test Case: ins10000-05 -> Score: 1
+  Test Case: j2-pos-03 -> Score: 1
+  Test Case: ps-lrg-pos-02 -> Score: 1
+  Test Case: bin-pos-03 -> Score: 1
+  Test Case: smallbin-01 -> Score: 1
+  Test Case: bin-pos-06 -> Score: 1
+  Test Case: 5-08 -> Score: 1
+  Test Case: cnt3-j2-neg-14 -> Score: 1
+  Test Case: cnt3ucs-06 -> Score: 1
+  Test Case: ins10000-06 -> Score: 1
+  Test Case: cnt3-j2-neg-09 -> Score: 1
+  Test Case: 0-03 -> Score: 1
+  Test Case: j2-neg-17 -> Score: 1
+  Test Case: cnt3-j2-pos-01 -> Score: 1
+  Test Case: 4-03 -> Score: 1
+  Test Case: j2-neg-31 -> Score: 1
+  Test Case: 3-09 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: j2-neg-16 -> Score: 1
+  Test Case: ps-sml-pos-02 -> Score: 1
+  Test Case: 4-08 -> Score: 1
+  Test Case: 1-07 -> Score: 1
+  Test Case: ps-lrg-pos-04 -> Score: 1
+  Test Case: smallbin-08 -> Score: 1
+  Test Case: ac-sml-pos-02 -> Score: 1
+  Test Case: bin-pos-01 -> Score: 1
+  Test Case: 5-13 -> Score: 1
+  Test Case: cnt3-j2-neg-06 -> Score: 1
+  Test Case: 5-16 -> Score: 1
+  Test Case: 4-04 -> Score: 1
+  Test Case: 0-02 -> Score: 1
+  Test Case: 3-07 -> Score: 1
+  Test Case: cnt3-j2-neg-21 -> Score: 1
+  Test Case: n2hacks-01 -> Score: 1
+  Test Case: j2-neg-24 -> Score: 1
+  Test Case: bin-pos-05 -> Score: 1
+  Test Case: cnt3-j2-neg-28 -> Score: 1
+  Test Case: ins10000-03 -> Score: 1
+  Test Case: 5-09 -> Score: 1
+  Test Case: cnt3-j-pos-02 -> Score: 1
+  Test Case: j2-pos-06 -> Score: 1
+  Test Case: j2-neg-30 -> Score: 1
+  Test Case: 3-05 -> Score: 1
+  Test Case: cnt3-j-neg-05 -> Score: 1
+  Test Case: smallbin-05 -> Score: 1
+  Test Case: j2-neg-01 -> Score: 1
+  Test Case: j2-pos-01 -> Score: 1
+  Test Case: ac-sml-neg-01 -> Score: 1
+  Test Case: smallbin-07 -> Score: 1
+  Test Case: 1-05 -> Score: 1
+  Test Case: j2-neg-09 -> Score: 1
+  Test Case: ps-lrg-pos-01 -> Score: 1
+  Test Case: bin-pos-02 -> Score: 1
+  Test Case: 3-11 -> Score: 1
+  Test Case: cnt3-j2-neg-18 -> Score: 1
+  Test Case: 5-06 -> Score: 1
+  Test Case: ps-lrg-pos-03 -> Score: 1
+  Test Case: cnt3-j2-neg-15 -> Score: 1
+  Test Case: ac-lrg-pos-01 -> Score: 1
+  Test Case: 4-07 -> Score: 1
+  Test Case: 4-02 -> Score: 1
+  Test Case: j2-neg-15 -> Score: 1
+  Test Case: 5-18 -> Score: 1
+  Test Case: j2-neg-29 -> Score: 1
+  Test Case: 5-04 -> Score: 1
+  Test Case: cnt3ucs-05 -> Score: 1
+  Test Case: ps-lrg-neg-03 -> Score: 1
+  Test Case: j2-neg-14 -> Score: 1
+  Test Case: cnt3-j-neg-02 -> Score: 1
+  Test Case: cnt3-j-pos-01 -> Score: 1
+  Test Case: cnt3-j2-neg-12 -> Score: 1
+  Test Case: ac-lrg-pos-02 -> Score: 1
+  Test Case: 5-07 -> Score: 1
+  Test Case: 5-17 -> Score: 1
+  Test Case: ps-sml-pos-04 -> Score: 1
+  Test Case: cnt3-j2-neg-11 -> Score: 1
+  Test Case: ac-sml-neg-03 -> Score: 1
+  Test Case: j2-neg-12 -> Score: 1
+  Test Case: ac-lrg-pos-04 -> Score: 1
+  Test Case: 1-04 -> Score: 1
+  Test Case: 5-02 -> Score: 1
+  Test Case: j2-pos-04 -> Score: 1
+
+Subtask Scores:
+  Subtask: 04-hasucs -> Score: 16
+  Subtask: 01-perm -> Score: 3
+  Subtask: 06-full -> Score: 42
+  Subtask: 00-samples -> Score: 0
+  Subtask: 03-bin -> Score: 10
+  Subtask: 02-cnt3 -> Score: 15
+  Subtask: 05-n2 -> Score: 14
+
+Total Score: 100
+
+--------------------------------
+
+Problem: mosaic
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: 7-01 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: 6-07 -> Score: 1
+  Test Case: 6-04 -> Score: 1
+  Test Case: 5-11 -> Score: 1
+  Test Case: 8-03 -> Score: 1
+  Test Case: 8-04 -> Score: 1
+  Test Case: 6-06 -> Score: 1
+  Test Case: 4-06 -> Score: 1
+  Test Case: 5-01 -> Score: 1
+  Test Case: 2-01 -> Score: 1
+  Test Case: 1-10 -> Score: 1
+  Test Case: 2-03 -> Score: 1
+  Test Case: 7-07 -> Score: 1
+  Test Case: 3-01 -> Score: 1
+  Test Case: 2-05 -> Score: 1
+  Test Case: 6-03 -> Score: 1
+  Test Case: 4-01 -> Score: 1
+  Test Case: 3-02 -> Score: 1
+  Test Case: 6-02 -> Score: 1
+  Test Case: 7-02 -> Score: 1
+  Test Case: 7-03 -> Score: 1
+  Test Case: 2-04 -> Score: 1
+  Test Case: 2-02 -> Score: 1
+  Test Case: 5-05 -> Score: 1
+  Test Case: 1-01 -> Score: 1
+  Test Case: 5-10 -> Score: 1
+  Test Case: 6-05 -> Score: 1
+  Test Case: 8-08 -> Score: 1
+  Test Case: 5-03 -> Score: 1
+  Test Case: 3-04 -> Score: 1
+  Test Case: 3-03 -> Score: 1
+  Test Case: 4-05 -> Score: 1
+  Test Case: 1-08 -> Score: 1
+  Test Case: 6-01 -> Score: 1
+  Test Case: 1-06 -> Score: 1
+  Test Case: 7-05 -> Score: 1
+  Test Case: 1-02 -> Score: 1
+  Test Case: 2-06 -> Score: 1
+  Test Case: 7-04 -> Score: 1
+  Test Case: 5-08 -> Score: 1
+  Test Case: 1-09 -> Score: 1
+  Test Case: 8-06 -> Score: 1
+  Test Case: 7-06 -> Score: 1
+  Test Case: 4-03 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: 8-02 -> Score: 1
+  Test Case: 4-08 -> Score: 1
+  Test Case: 1-07 -> Score: 1
+  Test Case: 4-04 -> Score: 1
+  Test Case: 5-09 -> Score: 1
+  Test Case: 3-05 -> Score: 1
+  Test Case: 1-05 -> Score: 1
+  Test Case: 8-05 -> Score: 1
+  Test Case: 8-01 -> Score: 1
+  Test Case: 5-06 -> Score: 1
+  Test Case: 4-07 -> Score: 1
+  Test Case: 8-07 -> Score: 1
+  Test Case: 4-02 -> Score: 1
+  Test Case: 5-04 -> Score: 1
+  Test Case: 5-07 -> Score: 1
+  Test Case: 1-04 -> Score: 1
+  Test Case: 5-02 -> Score: 1
+  Test Case: 2-07 -> Score: 1
+
+Subtask Scores:
+  Subtask: 02-NQ200 -> Score: 7
+  Subtask: 01-N2Q10 -> Score: 5
+  Subtask: 08-full -> Score: 22
+  Subtask: 00-samples -> Score: 0
+  Subtask: 05-X=Y=0 -> Score: 8
+  Subtask: 04-N5000 -> Score: 10
+  Subtask: 03-T=B=0 -> Score: 7
+  Subtask: 06-T=B&L=R -> Score: 22
+  Subtask: 07-T=B -> Score: 19
+
+Total Score: 100
+
+--------------------------------
+
+Problem: sphinx
+Compilation Output: 
+Compilation Error (if any): 
+Execution Output: 
+Execution Error (if any): 
+
+Test Case Scores:
+  Test Case: chain-small-01 -> Score: 1
+  Test Case: random-full-22 -> Score: 1
+  Test Case: random-full-05 -> Score: 1
+  Test Case: random-full-24 -> Score: 1
+  Test Case: 1-03 -> Score: 1
+  Test Case: random-full-18 -> Score: 1
+  Test Case: chain-small-07 -> Score: 1
+  Test Case: cliques-full-01 -> Score: 1
+  Test Case: complete-small-06 -> Score: 1
+  Test Case: complete-full-03 -> Score: 1
+  Test Case: complete-full-08 -> Score: 1
+  Test Case: random-full-06 -> Score: 1
+  Test Case: chain-full-08 -> Score: 1
+  Test Case: random-full-08 -> Score: 1
+  Test Case: coloring-small-03 -> Score: 1
+  Test Case: coloring-small-02 -> Score: 1
+  Test Case: complete-small-07 -> Score: 1
+  Test Case: complete-full-09 -> Score: 1
+  Test Case: chain-small-04 -> Score: 1
+  Test Case: random-full-03 -> Score: 1
+  Test Case: random-small-07 -> Score: 1
+  Test Case: coloring-small-01 -> Score: 1
+  Test Case: random-full-13 -> Score: 1
+  Test Case: random-full-17 -> Score: 1
+  Test Case: random-full-09 -> Score: 1
+  Test Case: chain-full-03 -> Score: 1
+  Test Case: random-small-03 -> Score: 1
+  Test Case: coloring-full-03 -> Score: 1
+  Test Case: random-small-08 -> Score: 1
+  Test Case: chain-full-05 -> Score: 1
+  Test Case: chain-small-02 -> Score: 1
+  Test Case: cliques-full-03 -> Score: 1
+  Test Case: random-full-19 -> Score: 1
+  Test Case: complete-small-02 -> Score: 1
+  Test Case: random-small-04 -> Score: 1
+  Test Case: chain-full-09 -> Score: 1
+  Test Case: random-full-26 -> Score: 1
+  Test Case: 1-01 -> Score: 1
+  Test Case: complete-full-07 -> Score: 1
+  Test Case: chain-full-07 -> Score: 1
+  Test Case: random-full-11 -> Score: 1
+  Test Case: random-full-25 -> Score: 1
+  Test Case: cliques-full-04 -> Score: 1
+  Test Case: random-full-04 -> Score: 1
+  Test Case: chain-full-02 -> Score: 1
+  Test Case: chain-full-01 -> Score: 1
+  Test Case: random-full-14 -> Score: 1
+  Test Case: coloring-full-02 -> Score: 1
+  Test Case: cliques-full-02 -> Score: 1
+  Test Case: complete-small-08 -> Score: 1
+  Test Case: complete-small-05 -> Score: 1
+  Test Case: random-full-15 -> Score: 1
+  Test Case: random-small-09 -> Score: 1
+  Test Case: complete-full-01 -> Score: 1
+  Test Case: random-full-21 -> Score: 1
+  Test Case: 1-02 -> Score: 1
+  Test Case: coloring-full-04 -> Score: 1
+  Test Case: random-full-12 -> Score: 1
+  Test Case: complete-small-01 -> Score: 1
+  Test Case: coloring-small-04 -> Score: 1
+  Test Case: chain-small-05 -> Score: 1
+  Test Case: complete-full-06 -> Score: 1
+  Test Case: coloring-full-01 -> Score: 1
+  Test Case: chain-small-06 -> Score: 1
+  Test Case: chain-small-03 -> Score: 1
+  Test Case: chain-full-06 -> Score: 1
+  Test Case: 0-01 -> Score: 1
+  Test Case: random-small-02 -> Score: 1
+  Test Case: complete-full-04 -> Score: 1
+  Test Case: complete-small-04 -> Score: 1
+  Test Case: random-full-02 -> Score: 1
+  Test Case: random-full-16 -> Score: 1
+  Test Case: complete-small-03 -> Score: 1
+  Test Case: complete-full-05 -> Score: 1
+  Test Case: random-small-01 -> Score: 1
+  Test Case: chain-small-08 -> Score: 1
+  Test Case: complete-full-02 -> Score: 1
+  Test Case: random-small-05 -> Score: 1
+  Test Case: random-full-01 -> Score: 1
+  Test Case: random-full-07 -> Score: 1
+  Test Case: random-small-06 -> Score: 1
+  Test Case: random-full-23 -> Score: 1
+  Test Case: random-full-10 -> Score: 1
+  Test Case: chain-full-04 -> Score: 1
+  Test Case: random-full-20 -> Score: 1
+  Test Case: 1-04 -> Score: 1
+
+Subtask Scores:
+  Subtask: 01-N2 -> Score: 3
+  Subtask: 02-N50 -> Score: 7
+  Subtask: 00-samples -> Score: 0
+  Subtask: 04-complete -> Score: 21
+  Subtask: 05-full -> Score: 36
+  Subtask: 03-chain -> Score: 33
+
+Total Score: 100
